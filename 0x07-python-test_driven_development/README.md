@@ -76,7 +76,7 @@ Prototypes for functions written in this project:
 
 5. Max integer - Unittest
 
-  - tests/6-max_integer_test.py: Python class/scriptthat runs unittests for the function def max_integer(list=[]):.
+   - tests/6-max_integer_test.py: Python class/scriptthat runs unittests for the function def max_integer(list=[]):.
 
 
 6. Matrix multiplication
@@ -93,8 +93,8 @@ Prototypes for functions written in this project:
 
 7. Lazy matrix multiplication
 
-  - 101-lazy_matrix_mul.py: Python function that multiplies two matrices using the module NumPy.
-  - Identical in function to 100-matrix_mul.py.
+   - 101-lazy_matrix_mul.py: Python function that multiplies two matrices using the module NumPy.
+   - Identical in function to 100-matrix_mul.py.
 
 
 8. CPython #3: Python Strings
