@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """Defines a Rectangle class."""
-
-
 class Rectangle:
     """Represent a rectangle."""
 
@@ -11,7 +9,6 @@ class Rectangle:
         Args:
             width (int): The width of the new rectangle.
             height (int): The height of the new rectangle.
-
         """
         self.width = width
         self.height = height
@@ -64,11 +61,15 @@ class Rectangle:
         for i in range(self.__height):
             [rect.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
-                rect.append("\n")
-            return ("".join(rect))
+                rect.append("\n") 
+        return ("".join(rect))
 
-        def __repr__(self):
-            """Return the string representation of the Rectangle."""
-            rect = "Rectangle(" + str(self.__width)
-            rect += ", " + str(self.__height) + ")"
-            return (rect)
+    def __repr__(self):
+        """Return the string representation of the Rectangle."""
+        rect = "Rectangle(" + str(self.__width)
+        rect += ", " + str(self.__height) + ")"
+        return (rect)
+
+    def __del__(self):
+        """Print a message for every deletion of a Rectangle."""
+        print("Bye rectangle...")
