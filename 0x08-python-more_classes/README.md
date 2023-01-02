@@ -3,7 +3,7 @@ In this project, I learned about class methods, static methods, class vs instanc
 
 ## Tests ✔️
 
-tests: Folder of test files. Provided by Holberton School.
+tests: Folder of test files. Provided by ALX.
 
 ## Tasks 📃
 
